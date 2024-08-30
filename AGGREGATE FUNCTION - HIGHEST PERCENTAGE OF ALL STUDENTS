@@ -1,0 +1,6 @@
+select max(perc)
+from student;
+
+OUTPUT:
+MAX(PERC)
+80
