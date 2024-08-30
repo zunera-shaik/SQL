@@ -1,0 +1,9 @@
+select bname,count(rollno)
+from student
+group by bname;
+
+OUTPUT :
+BNAME	COUNT(ROLLNO)
+CSE	   3
+ECE	   2
+IT	   1
