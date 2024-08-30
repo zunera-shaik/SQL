@@ -1,0 +1,7 @@
+select avg(perc)
+from student;
+
+OUTPUT :
+
+AVG(PERC)
+74.75
