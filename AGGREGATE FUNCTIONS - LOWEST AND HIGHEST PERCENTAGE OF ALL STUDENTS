@@ -1,0 +1,6 @@
+select min(perc) lowest,max(perc) highest
+from student;
+
+OUTPUT :
+LOWEST	HIGHEST
+68.5	   80
