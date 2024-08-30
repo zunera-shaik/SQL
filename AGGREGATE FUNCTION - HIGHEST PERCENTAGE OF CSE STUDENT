@@ -1,0 +1,7 @@
+select max(perc)
+from student
+where bname = 'CSE';
+
+OUTPUT:
+MAX(PERC)
+80
