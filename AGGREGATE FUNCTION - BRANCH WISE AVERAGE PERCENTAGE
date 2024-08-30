@@ -1,0 +1,9 @@
+select bname,avg(perc)
+from student
+group by bname;
+
+OUTPUT :
+BNAME	   AVG(PERC)
+CSE	      74.66666666666666666666666666666666666667
+ECE	      77.25
+IT	      70
