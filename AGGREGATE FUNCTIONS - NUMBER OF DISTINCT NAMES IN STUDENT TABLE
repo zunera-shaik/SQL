@@ -1,0 +1,6 @@
+select count(distinct name)
+from student;
+
+OUTPUT :
+COUNT(DISTINCTNAME)
+4
