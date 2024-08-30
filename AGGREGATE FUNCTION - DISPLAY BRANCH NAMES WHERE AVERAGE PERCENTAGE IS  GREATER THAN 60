@@ -1,0 +1,10 @@
+select bname
+from student
+group by bname
+having avg(perc)>=60;
+
+OUTPUT :
+BNAME
+CSE
+ECE
+IT
