@@ -1,0 +1,9 @@
+select bname,max(perc)
+from student
+group by bname;
+
+OUTPUT :
+BNAME	  MAX(PERC)
+CSE	    80
+ECE	    78
+IT	    70
