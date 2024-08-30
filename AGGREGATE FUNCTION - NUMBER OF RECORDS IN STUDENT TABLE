@@ -1,0 +1,7 @@
+select count(rollno)
+from student;
+
+OUTPUT :
+
+COUNT(ROLLNO)
+6
